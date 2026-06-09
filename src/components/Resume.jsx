@@ -105,9 +105,7 @@ export default function Resume() {
                   <HiDownload className="h-5 w-5" />
                   Download Full Resume
                 </a>
-                <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
-                  Place your PDF resume at <code className="rounded bg-slate-100 px-1.5 py-0.5 dark:bg-slate-800">public/resume.pdf</code>
-                </p>
+                
               </div>
             </div>
           </div>
