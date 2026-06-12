@@ -142,7 +142,7 @@ export const projects = [
       'Permission Sets',
     ],
     github: 'https://github.com/Alekhya5804/smart-inventory-management',
-    featured: true,
+    featured: false,
     color: 'from-brand-600 to-accent-500',
   },
   {
