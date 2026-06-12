@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { HiExternalLink, HiStar } from 'react-icons/hi';
+import { HiStar } from 'react-icons/hi';
 import { FaGithub } from 'react-icons/fa';
 import { projects } from '../data/portfolioData';
 import SectionHeading from './SectionHeading';
@@ -81,16 +81,6 @@ export default function Projects() {
                   >
                     <FaGithub className="h-5 w-5" />
                     View on GitHub
-                  </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary !px-5 !py-2.5"
-                    onClick={(e) => project.demo === '#' && e.preventDefault()}
-                  >
-                    <HiExternalLink className="h-5 w-5" />
-                    Live Demo
                   </a>
                 </div>
               </div>
