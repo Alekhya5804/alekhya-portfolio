@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="section-container">
         <SectionHeading
           label="Projects"
-          title="Featured Work"
+          title="Project Information"
           subtitle="Real-world projects demonstrating Salesforce development and modern web engineering"
         />
 
