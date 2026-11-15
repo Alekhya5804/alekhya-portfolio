@@ -119,6 +119,35 @@ export const experiences = [
 ];
 
 export const projects = [
+
+  {
+    id: 'salesforce-crud-manager',
+    title: 'Salesforce CRUD Manager',
+    subtitle: 'Full-Stack Salesforce Record Management Application',
+    description:
+      'A web-based application built with React and FastAPI that connects to Salesforce using OAuth 2.0 authentication and enables users to manage records across multiple Salesforce standard objects.',
+    features: [
+      'Salesforce OAuth 2.0 authentication',
+      'Create, Read, Update and Delete Salesforce records',
+      'Account, Contact, Lead, Opportunity and Case management',
+      'Dashboard with object selection and record search',
+      'Pagination and infinite scrolling',
+      'Deployed backend application on Render',
+    ],
+    technologies: [
+      'React',
+      'Vite',
+      'Python',
+      'FastAPI',
+      'Salesforce OAuth 2.0',
+      'Render',
+    ],
+    github: 'https://github.com/Alekhya5804/salesforce-crud-app',
+    demo: 'https://salesforce-crud-app-l440.onrender.com',
+    featured: true,
+    color: 'from-blue-600 to-cyan-500',
+  },
+
   {
     id: 'smart-inventory',
     title: 'Smart Inventory Management System',
@@ -166,6 +195,15 @@ export const projects = [
 ];
 
 export const certifications = [
+
+  {
+    id: 'javascript-essentials-1',
+    title: 'JavaScript Essentials 1',
+    issuer: 'Cisco Networking Academy',
+    description: 'Certification covering JavaScript programming fundamentals.',
+    badge: 'JS',
+  },
+
   {
     id: 'sf-trailhead',
     title: 'Salesforce AI Associate',
